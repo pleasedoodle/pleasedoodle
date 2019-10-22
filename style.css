@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+h1,h2{
+  text-align:center;
+}
+
+h1{
+  color:rgba(100, 50, 255, .8);
+  font-family: 'didot', cursive;
+  color:#212121;
+}
+.rainbow {
+
+   /* Font options */
+  font-family: 'arial';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size:65px;
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 3s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+body{
+  background-color:#ffffff;
+}
+
+.container{
+  background-color:#ffffff;
+  padding:0px;
+  border:3px solid black;
+  border-radius:15px;
+}
+
+#gifbrendline{
+   display: block;
+   margin: 0 auto;
+   padding-bottom: 100px;
+}
+
+.gayflag{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  -webkit-filter: drop-shadow(8px);7
+  width: 80%;
+  height: 55%;
+}
+
+.gayblurtxt {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 2048px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 45%;
+  padding: 20px;
+  text-align: center;
